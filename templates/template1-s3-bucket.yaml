@@ -5,4 +5,8 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: <BUCKET_NAME>
+      BucketName: patryk-onewheel
+  S3Bucket1:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: patryk-onewheel

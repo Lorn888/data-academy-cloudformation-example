@@ -58,7 +58,7 @@ It is possible to configure and deploy CloudFormation stacks in the AWS console 
 Before we can deploy our templates we must first upload them to S3. If you haven't already done so, create an S3 bucket for your templates. You can do this in the AWS console or using the following CLI command:
 
 ```sh
-aws s3 mb s3://<bucket-name> --region eu-west-1
+aws s3 mb s3://<bucket-name> --region eu-west-1 --profile <profile-name>
 ```
 
 ### Template1: S3 Bucket
